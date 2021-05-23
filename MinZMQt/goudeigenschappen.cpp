@@ -9,15 +9,7 @@
 
 using namespace std;
 
-goudeigenschappen::goudeigenschappen()
-{
-    cout << "I am the constructor, but shuuuuuu nobody knowss";
-}
 
-goudeigenschappen::~goudeigenschappen()
-{
-    cout << "I am the denstructor,  but shuuuuuu nobody knowss";
-}
 
 void goudeigenschappen::speler(){ //invullen van de speler() functie met de goldspelers[][] variabelen
     string goldSpelers[5][4] =
@@ -74,7 +66,6 @@ void goudeigenschappen::stadium(){ //invullen van de stadium() functie met de go
     unsigned char rand2 = rand()%5;
     unsigned char rand3 = rand()%5;
 
-    cout << "Naam" << "         " << " Capaciteit" << "         " << "Land" << "           " << "Opening" << endl;
 
             setNaamStadium(goldStadium[rand1][0]);
             setCapaciteitStadium(goldStadium[rand1][1]);

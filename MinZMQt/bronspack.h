@@ -11,6 +11,12 @@ public:
     bronspack();
     void samenstellen();
 
+
+    string getPlayer();
+
+
+
+
 };
 
 #endif // BRONSPACK_H

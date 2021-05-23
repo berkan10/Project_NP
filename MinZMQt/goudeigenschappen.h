@@ -9,8 +9,7 @@
 class goudeigenschappen: public spelers, public coaches, public stadiums
 {
 public:
-    goudeigenschappen();  //constructor
-    ~goudeigenschappen(); //destructor
+
 
     void speler();
     void stadium();

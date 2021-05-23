@@ -22,7 +22,7 @@ void bronseigenschappen::speler(){ //invullen van de speler() functie met de bro
 
     unsigned char rand1 = rand()%5;
     unsigned char rand2 = rand()%5;
-    unsigned char rand3 = rand()%5;
+   unsigned char rand3 = rand()%5;
 
             cout << "Naam" << "          " << " Rating" << "            " << "Land" << "             " << "Leeftijd" << endl;
 
