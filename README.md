@@ -28,12 +28,25 @@ Bij het opstarten van de game verstuurd de server =>            -   FIFA!<task<B
   
   
 De client antwoordt met FIFA?<answer>GO
-Vervolgens stuurt de server het welkomsbericht naar de client =>      - FIFA!<answer>Welcome to FIFA Ultimate Team pack opening let's gooooooo
-                                                                      -  You got 3 attempts
-                                                                      -  Choose your package to get your cards (press number)
-                                                                      -  1 GOLD PACK
-                                                                      -  2 SILVER PACK
-                                                                      -  3 BRONZE PACK
+Vervolgens stuurt de server het welkomsbericht naar de client =>  
+  
+  - FIFA!<answer>Welcome to FIFA Ultimate Team pack opening let's gooooooo
+                                                                  
+  
+  -  You got 3 attempts
+                                                                  
+  
+  -  Choose your package to get your cards (press number)
+                                                                  
+  
+  -  1 GOLD PACK
+                                                                  
+  
+  -  2 SILVER PACK
+                                                                  
+  
+  -  3 BRONZE PACK
+  
   Nu verwacht de client een input van de player.
   De player heeft drie pogingen voordat de gebruiker de keuze heeft om het spel te hervatten of af te sluiten. 
   
