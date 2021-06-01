@@ -32,7 +32,8 @@ Vervolgens stuurt de server het welkomsbericht naar de client => FIFA!<answer>We
                                                                   1 GOLD PACK
                                                                   2 SILVER PACK
                                                                   3 BRONZE PACK
-  Nu verwacht de client een input van de player. De player heeft drie pogingen voordat de gebruiker de keuze heeft om het spel te hervatten of af te sluiten. 
+  Nu verwacht de client een input van de player.
+  De player heeft drie pogingen voordat de gebruiker de keuze heeft om het spel te hervatten of af te sluiten. 
   
   De client antwoordt met FIFA!<task<Berkan>( keuze pakket )
   De server antwoordt met FIFA!<answer<package> ( output van de pakketten )
@@ -45,7 +46,6 @@ Vervolgens stuurt de server het welkomsbericht naar de client => FIFA!<answer>We
 - CLIENT   : verstuurd op FIFA!<task<Berkan> de input van de player 
 - LOOP     :  3 X input
 - SERVER   : verstuurd op FIFA!<answer<package> de ouput van de pakketten
-- CLIENT1  : verstuurd op blackjack>game?>naam1> wat hij wilt doen
 - end loop :
 - CLIENT   : vraagt of user opnieuw wil spelen
 - CLIENT   : ALS Y, dan kan de player opnieuw drie keer een input ingeven zo niet wordt het programma afgesloten
