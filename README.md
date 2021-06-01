@@ -16,11 +16,10 @@ Start eerst client daarna de server om het spel juist te beginnen. Wanneer de ga
 
 De game werkt met een aantal commando's, namelijk =>
 
-pushtask     = FIFA!<task<Berkan> 
-subtask      = FIFA?<task<Berkan>
-
-subanswer    = FIFA!<answer>   
-pushanswer   = FIFA?<answer>    
+          pushtask     = FIFA!<task<Berkan> 
+          subtask      = FIFA?<task<Berkan>
+          subanswer    = FIFA!<answer>   
+          pushanswer   = FIFA?<answer>    
   
 De berichen worden altijd met een ? of ! verstuurd, zo is duidelijk wie wat heeft gestuurd. De client reageert altijd met een ? terwijl de server altijd antwoord met een !. 
 
