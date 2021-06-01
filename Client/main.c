@@ -53,7 +53,7 @@ char ask4[500]="";
 
 zmq_setsockopt(subs, ZMQ_SUBSCRIBE, subtask, strlen(subtask));
 zmq_setsockopt(subs, ZMQ_SUBSCRIBE, subanswer, strlen(subanswer));
-zmq_setsockopt(subs, ZMQ_SUBSCRIBE, subanswerpackage, strlen(subanswerpackage));
+//zmq_setsockopt(subs, ZMQ_SUBSCRIBE, subanswerpackage, strlen(subanswerpackage));
 
 // receive welcome message
 
